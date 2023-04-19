@@ -1,14 +1,33 @@
 <!DOCTYPE html>
 <html>
-  <header>
-		<h1>Studio: Bonnie Kim  !</h1>
+  
+<div>
+	<header>
+		<h1>Studio: Bonnie Kim </h1>
 		<nav>
-		  <ul>
-			<li><a href="index.html">Go Back to Gallery</a></li>
-		  </ul>
+			<a href="index.html">Go Back to Gallery</a>
 		</nav>
 	  </header>
-  <head>
+<body>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    
+    .column {
+      float: left;
+      width: 33.33%;
+      padding: 5px;
+    }
+    
+    /* Clearfix (clear floats) */
+    .row::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    </style>
+
     <meta charset="UTF-8">
     <title>Convergence, 2022</title>
     <style>
